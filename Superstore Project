@@ -32,4 +32,15 @@ WHERE stock_quantity > "30"
 ORDER BY price desc;
 
 SELECT SUM (stock_quantity)
+FROM superstore;
+
+SELECT AVG(price)
+FROM superstore;
+
+SELECT * 
+FROM superstore
+WHERE "category" = "Kitchen Supplies"
+ORDER BY price desc;
+
+SELECT SUM (stock_quantity)
 FROM superstore
